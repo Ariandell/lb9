@@ -1,0 +1,30 @@
+body { background-color: #f4f4f4; font-family: Arial, sans-serif; }
+#result { text-align: center; margin-top: 50px; }
+img { width: 100px; height: 100px; margin: 0 20px; }
+.highlight { border: 3px solid red; }
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button:hover {
+    background-color: #45a049;
+    color: white;
+}
+#gameCount {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+}
