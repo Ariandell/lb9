@@ -1,6 +1,11 @@
 body { background-color: #f4f4f4; font-family: Arial, sans-serif; }
 #result { text-align: center; margin-top: 50px; }
-img { width: 100px; height: 100px; margin: 0 20px; }
+img { 
+     width: 100px; 
+     height: 100px; 
+     margin: 0 20px;
+    transition-duration: 0.4s;
+}
 .highlight { border: 3px solid red; }
 button {
     background-color: #4CAF50;
@@ -27,4 +32,11 @@ button:hover {
     top: 10px;
     right: 10px;
     font-size: 20px;
+}
+@media (max-width: 600px) {
+    img { width: 50px; height: 50px; }
+    button {
+        top: 70%; 
+        font-size: 12px;
+    }
 }
